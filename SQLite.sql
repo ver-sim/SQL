@@ -1,0 +1,6 @@
+ALTER TABLE Books 
+ADD COLUMN number_of_pages INTEGER
+
+ALTER TABLE Books 
+ADD COLUMN publisher TEXT NOT NULL
+
